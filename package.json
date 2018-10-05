@@ -1,0 +1,21 @@
+{
+    "name": "appli-movie",
+    "version": "0.0.1-SNAPSHOT",
+    "description": "How many time did you watch movies ?",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha test/**/*.test.js -w --require babel-register"
+    },
+    "author": "JohnnP",
+    "license": "ISC",
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs"
+    },
+    "devDependencies": {
+        "babel-preset-latest": "6.24.1",
+        "babel-register": "6.26.0",
+        "eslint": "5.6.1",
+        "mocha": "5.2.0"
+    }
+}
