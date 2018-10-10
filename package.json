@@ -9,8 +9,7 @@
     "author": "JohnnP",
     "license": "ISC",
     "compilerOptions": {
-        "target": "ES6",
-        "module": "commonjs"
+        "target": "ES6"
     },
     "devDependencies": {
         "babel-preset-latest": "6.24.1",
